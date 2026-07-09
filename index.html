@@ -1,1 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoodTab</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+    <nav class="nav-bar">
+        <div class="logo">GoodTab</div>
+        <input type="text" class="search-bar" placeholder="Search Google...">
+    </nav>
+
+    <main class="dashboard">
+        <div class="clock-widget">
+            <h1 id="time">00:00</h1>
+        </div>
+        
+        <div class="todo-widget">
+            <h3>To-Do List</h3>
+            <input type="text" id="todo-input" placeholder="Add a task...">
+            <ul id="todo-list"></ul>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
